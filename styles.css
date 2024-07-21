@@ -1,0 +1,54 @@
+@font-face {
+    font-family: header;
+    src: url(/assets/fonts/Playwrite_CU/PlaywriteCU-VariableFont_wght.ttf);
+}
+img{
+    width: 900px;
+}
+.unordered-list{
+    list-style-type: circle;
+    font-family: monospace;
+    list-style-position: outside;
+}
+.ordered-list{
+    list-style-image: url(./assets/images/cookie-7-16.png);
+    list-style-position: outside;
+    text-align: right;
+    width: 500px;
+}
+.ingredients{
+    font-size: large;
+    line-height: 25px;
+
+}
+header{
+    margin: auto;
+    padding: 15px 20px 5px 15px;
+    font-family: header;
+}
+#first{
+    background: #c75757;
+}
+#second{
+    background: #e4c18c;
+}
+#third{
+    background: #b66407;
+}
+#fourth{
+    background: #e0f568;
+}
+#fifth{
+    background: #eea538;
+}
+#sixth{
+    background: #138fa0;
+}
+.recipe-details{
+    width: 502px;
+    height: 350px;
+    background: #fd9;
+    margin: 30px 50px ;
+    box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.2);
+    padding: 5px 40px;
+}
